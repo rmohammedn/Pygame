@@ -1,0 +1,27 @@
+# colot definition
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+DARKGREY = (40, 40, 40)
+LIGHTGREY = (100, 100, 100)
+YELLOW = (255, 255, 0)
+
+
+# define world settings
+WIDTH = 1024
+HEIGHT = 320
+TITLE = "Tile Game"
+BGCOLOR = DARKGREY
+FPS = 60
+
+# Tile details
+TILESIZE = 32
+#TILE = 32
+GRIDWIDTH = WIDTH/TILESIZE
+GRIDHEIGHT = HEIGHT/TILESIZE
+
+
+# player settings
+PLAYER_SPEED = 300
